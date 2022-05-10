@@ -1,6 +1,12 @@
 
 version: 2
-
+sources:
+  - name: dbo
+    database: E_Commerce
+    
+    tables:
+      - name: orders_dataset
+      
 models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
